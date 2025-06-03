@@ -46,10 +46,10 @@ python main.py --dataset-dir '/dataset/IRSTD-1k' --batch-size 4 --mode 'test' --
 | NUDT-SIRST |     85.17      |    98.52     |     2.78     | [NUDT-SIRST](https://drive.google.com/file/d/1we0dE2L47z509-EW4_Bj4Y828oPSkNAe/view?usp=drive_link) |
 
 ## Qualitative Results
-The detection results of HDNet on the three datasets: [HDNet_Visual_Result](URL 'https://drive.google.com/drive/folders/1RfoxhoHpjfbRMZHBOvISrJSB5lpoz40t?usp=drive_link'). 
+The detection results of HDNet on the three datasets: [HDNet_Visual_Result](https://drive.google.com/drive/folders/1RfoxhoHpjfbRMZHBOvISrJSB5lpoz40t?usp=drive_link). 
 
 ##
-* HDNet employs the SLS loss and further improves the network architecture based on [MSHNet](URL 'https://github.com/Lliu666/MSHNet'). Thanks to Qiankun Liu.
+* HDNet employs the SLS loss and further improves the network architecture based on [MSHNet](https://github.com/Lliu666/MSHNet). Thanks to Qiankun Liu.
 
 ## Citation
 **Please kindly cite the papers if this code is useful and helpful for your research.**
