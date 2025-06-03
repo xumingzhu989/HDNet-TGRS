@@ -29,13 +29,13 @@ python main --dataset-dir --batch-size --epochs --mode 'train'
 
 For example:
 ```
-python main.py --dataset-dir '/dataset/IRSTD-1k' --batch-size 4 --epochs 800 --mode 'train'
+python main.py --dataset-dir './dataset/IRSTD-1k' --batch-size 4 --epochs 800 --mode 'train'
 ```
 
 ## Testing
 You can test the model with the following command:
 ```
-python main.py --dataset-dir '/dataset/IRSTD-1k' --batch-size 4 --mode 'test' --weight-path './weight/irstd.pkl'
+python main.py --dataset-dir './dataset/IRSTD-1k' --batch-size 4 --mode 'test' --weight-path './weight/irstd.pkl'
 ```
 
 ## Quantative Results
