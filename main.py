@@ -29,7 +29,7 @@ def parse_args():
     parser.add_argument('--if-checkpoint', type=bool, default=False)
 
     parser.add_argument('--mode', type=str, default='test')
-    parser.add_argument('--weight-path', type=str, default='/root/YCL/HDNet/weight/irstd.pkl')
+    parser.add_argument('--weight-path', type=str, default='/root/HDNet/weight/irstd.pkl')
 
     args = parser.parse_args()
     return args
