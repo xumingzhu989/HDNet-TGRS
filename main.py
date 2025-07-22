@@ -80,7 +80,7 @@ class Trainer(object):
                 self.best_iou = checkpoint['iou']
                 self.save_folder = check_folder
             else:
-                self.save_folder = '/root/HDNet/weight/MSHNet-%s'%(time.strftime('%Y-%m-%d-%H-%M-%S',time.localtime(time.time())))
+                self.save_folder = '/root/HDNet/weight/HDNet-%s'%(time.strftime('%Y-%m-%d-%H-%M-%S',time.localtime(time.time())))
                 if not osp.exists(self.save_folder):
                     os.mkdir(self.save_folder)
         if args.mode=='test':
