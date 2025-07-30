@@ -54,10 +54,15 @@ The detection results of HDNet on the three datasets: [HDNet_Visual_Result](http
 ## Citation
 **Please kindly cite the papers if this code is useful and helpful for your research.**
 
-    @article{xu2025hdnet,
-      title={HDNet: A Hybrid Domain Network with Multi-Scale High-Frequency Information Enhancement for Infrared Small Target Detection},
-      author={Xu, Mingzhu and Yu, Chenglong and Li, Zexuan and Tang, Haoyu and Hu, Yupeng and Nie, Liqiang},
-      journal={IEEE Transactions on Geoscience and Remote Sensing},
-      year={2025},
-      publisher={IEEE}
-    }
+    @ARTICLE{11017756,
+     author={Xu, Mingzhu and Yu, Chenglong and Li, Zexuan and Tang, Haoyu and Hu, Yupeng and Nie, Liqiang},
+     journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+     title={HDNet: A Hybrid Domain Network With Multiscale High-Frequency Information Enhancement for Infrared Small-Target Detection}, 
+     year={2025},
+     volume={63},
+     number={},
+     pages={1-15},
+     keywords={Frequency-domain analysis;Feature extraction;Object detection;Information filters;Convolution;Interference;Representation learning;Low-pass filters;Fast Fourier transforms;Background noise;Dynamic high-pass filter (DHPF);high-frequency information    enhancement;infrared small-target detection (IRSTD);multiscale atrous contrast (MAC) convolution},
+     doi={10.1109/TGRS.2025.3574962}
+  }
+
