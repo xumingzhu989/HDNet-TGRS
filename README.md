@@ -64,5 +64,5 @@ The detection results of HDNet on the three datasets: [HDNet_Visual_Result](http
      pages={1-15},
      keywords={Frequency-domain analysis;Feature extraction;Object detection;Information filters;Convolution;Interference;Representation learning;Low-pass filters;Fast Fourier transforms;Background noise;Dynamic high-pass filter (DHPF);high-frequency information    enhancement;infrared small-target detection (IRSTD);multiscale atrous contrast (MAC) convolution},
      doi={10.1109/TGRS.2025.3574962}
-  }
+     }
 
