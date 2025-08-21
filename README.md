@@ -19,7 +19,7 @@ In this paper, we propose a novel Hybrid Domain Network (HDNet), which fuses fre
 4. We have conducted comprehensive ablation studies and experimental analysis on three public datasets (including IRSTD-1K, NUAA-SIRST, and NUDT-SIRST), validating the effectiveness and superiority of our HDNet, compared with 26 state-of-the-art (SOTA) methods.
 
 ## Datasets
-Download the datasets and put them to './datasets': [IRSTD-1k](https://github.com/RuiZhang97/ISNet), [NUAA-SIRST](https://github.com/YimianDai/sirst), [NUDT-SIRST](https://github.com/YeRen123455/Infrared-Small-Target-Detection).
+Download the datasets and put them to './datasets': [IRSTD-1k](https://github.com/RuiZhang97/ISNet), [NUAA-SIRST](https://github.com/YimianDai/sirst), [NUDT-SIRST](https://github.com/YeRen123455/Infrared-Small-Target-Detection). Or test according to the train/val split ratio provided in the datasets directory.
 
 ## Training
 The training command is very simple like this:
