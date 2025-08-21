@@ -48,21 +48,21 @@ class SLSIoULoss(nn.Module):
 
         intersection = pred * target
             
-        intersection_sum = torch.sum(intersection, dim=(1,2,3))
-        pred_sum = torch.sum(pred, dim=(1,2,3))
-        target_sum = torch.sum(target, dim=(1,2,3))
-        u_sum = pred_sum + target_sum - intersection_sum  + smooth
-        dis = torch.pow((intersection_sum-u_sum)/2, 2)
-        
-        alpha = (torch.min(intersection_sum, u_sum) + dis + smooth) / (torch.max(intersection_sum, u_sum) + dis + smooth) 
-            
         # intersection_sum = torch.sum(intersection, dim=(1,2,3))
         # pred_sum = torch.sum(pred, dim=(1,2,3))
         # target_sum = torch.sum(target, dim=(1,2,3))
+        # u_sum = pred_sum + target_sum - intersection_sum  + smooth
+        # dis = torch.pow((intersection_sum-u_sum)/2, 2)
         
-        # dis = torch.pow((pred_sum-target_sum)/2, 2)
+        # alpha = (torch.min(intersection_sum, u_sum) + dis + smooth) / (torch.max(intersection_sum, u_sum) + dis + smooth) 
+            
+        intersection_sum = torch.sum(intersection, dim=(1,2,3))
+        pred_sum = torch.sum(pred, dim=(1,2,3))
+        target_sum = torch.sum(target, dim=(1,2,3))
         
-        # alpha = (torch.min(pred_sum, target_sum) + dis + smooth) / (torch.max(pred_sum, target_sum) + dis + smooth) 
+        dis = torch.pow((pred_sum-target_sum)/2, 2)
+        
+        alpha = (torch.min(pred_sum, target_sum) + dis + smooth) / (torch.max(pred_sum, target_sum) + dis + smooth) 
         
         loss = (intersection_sum + smooth) / \
                 (pred_sum + target_sum - intersection_sum  + smooth)       
