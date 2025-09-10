@@ -21,6 +21,9 @@ In this paper, we propose a novel Hybrid Domain Network (HDNet), which fuses fre
 ## Datasets
 Download the datasets and put them to './datasets': [IRSTD-1k](https://github.com/RuiZhang97/ISNet), [NUAA-SIRST](https://github.com/YimianDai/sirst), [NUDT-SIRST](https://github.com/YeRen123455/Infrared-Small-Target-Detection). Or test according to the train/val split ratio provided in the datasets directory.
 
+## Prerequisite
+Trained and tested on Ubuntu 22.04, with Python 3.10, PyTorch 2.1.0, Torchvision 0.16.2+cu121, CUDA 12.1, and 1×NVIDIA 3090.
+
 ## Training
 The training command is very simple like this:
 ```
